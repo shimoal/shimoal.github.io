@@ -60,12 +60,45 @@ section {
 
 .thumbnail{
 	height: 120px;
-	width: 150px;
-
-	background-image: URL("../images/plymouthRooftops.jpg");
-	background-size: cover;
+	width: 200px;
 	display: inline-block;
 	margin: 30px;
+}
+
+#aethelflaed-tribute{
+	background-image: URL("../images/aethelflaed-tribute.png");
+	background-size: 200px 120px;
+
+}
+
+#local-weather{
+	background-image: URL("../images/local-weather.png");
+	background-size:200px 120px;
+
+}
+
+#design-quotes{
+	background-image: URL("../images/design-quotes.png");
+	background-size: 200px 120px;
+
+}
+
+#wikipedia{
+	background-image: URL("../images/wikipedia-search-box.png");
+	background-size: 200px 120px;
+
+}
+
+#sketchpad{
+	background-image: URL("../images/sketchpad.png");
+	background-size: 200px 120px;
+
+}
+
+#sample{
+	background-image: URL("../images/plymouthRooftops.jpg");
+	background-size: 200px 120px;
+
 }
 
 .thumbnail:hover{
