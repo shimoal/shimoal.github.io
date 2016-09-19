@@ -64,7 +64,7 @@ section {
 	display: inline-block;
 	margin: 30px;
 }
-
+/*
 #aethelflaed-tribute{
 	background-image: URL("../images/aethelflaed-tribute.png");
 	background-size: 200px 120px;
@@ -105,7 +105,7 @@ section {
 	transform: scale(1.2);
 }
 
-
+*/
 
 footer {
 	background: linear-gradient(to bottom, gray, black);
