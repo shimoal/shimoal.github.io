@@ -1,3 +1,82 @@
+html {
+	min-height: 100%;
+}
+
+body{
+	margin-bottom: -50px;
+	background-color: lightgray;
+}
+
+body, header, h1, h2, p{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
 header { 
-	background-image: URL("./images/plymouthRooftops.jpg");
+	background: linear-gradient(to top, gray, black);
+	height: 200px;
+	text-align: center
+}
+
+h1 {
+	font-family: Monospace, sans-serif;
+	padding-top: 100px;
+	color: lightgray;
+	margin-bottom: 30px;
+}
+
+h2{
+	font-family: Monospace, sans-serif;
+	padding: 10px;
+	margin: 5px;
+	color: purple;
+}
+
+nav li {
+	display: inline-block;
+	margin: 0 15px;
+}
+
+nav li a{
+	color: black;
+	text-decoration: none;
+}
+
+nav li a:hover{
+	color: violet;
+}
+
+main {
+	min-height: 1000px;
+}
+
+section {
+	background-color: white;
+	border: 1px solid cyan;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.thumbnail{
+	height: 120px;
+	width: 150px;
+
+	background-image: URL("../images/plymouthRooftops.jpg");
+	background-size: cover;
+	display: inline-block;
+	margin: 30px;
+}
+
+.thumbnail:hover{
+	transform: scale(1.2);
+}
+
+
+
+footer {
+	background: linear-gradient(to bottom, gray, black);
+
+	height: 50px;
+	position: relative;
 }
