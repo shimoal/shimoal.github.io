@@ -1,7 +1,7 @@
-html {
+/*html {
 	min-height: 100%;
 }
-
+*/
 body{
 	margin-bottom: -50px;
 	background-color: lightgray;
@@ -56,6 +56,14 @@ section {
 	border: 1px solid cyan;
 	width: 80%;
 	margin: 0 auto;
+	text-align: center;
+	padding: 40px 0;
+}
+
+#about-me p{
+	width: 500px;
+	text-align: left;
+	margin: 0 auto;
 }
 
 .thumbnail{
@@ -105,7 +113,9 @@ section {
 	transform: scale(1.2);
 }
 
-
+.logo{
+	height: 200px;
+	}
 
 footer {
 	background: linear-gradient(to bottom, gray, black);
