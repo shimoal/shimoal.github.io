@@ -1,10 +1,17 @@
 /*html {
 	min-height: 100%;
 }
+
+colors:
+red- #840032
+black- #08090a
+white- #f4f7f5
+yellow- #e59500
+blue? - #c5d1eb
 */
 body{
 	margin-bottom: -50px;
-	background-color: lightgray;
+	background-color: #002642;
 }
 
 body, header, h1, h2, p{
@@ -14,7 +21,7 @@ body, header, h1, h2, p{
 }
 
 header { 
-	background: linear-gradient(to top, gray, black);
+	background: linear-gradient(to top, #840032, #08090a);
 	height: 200px;
 	text-align: center
 }
@@ -22,7 +29,7 @@ header {
 h1 {
 	font-family: Monospace, sans-serif;
 	padding-top: 100px;
-	color: lightgray;
+	color: #c5d1eb;
 	margin-bottom: 30px;
 }
 
@@ -30,7 +37,7 @@ h2{
 	font-family: Monospace, sans-serif;
 	padding: 10px;
 	margin: 5px;
-	color: purple;
+	color: #840032;
 }
 
 nav li {
@@ -39,21 +46,23 @@ nav li {
 }
 
 nav li a{
-	color: black;
+	color: #e59500;
 	text-decoration: none;
+	font-size: 18px;
 }
 
 nav li a:hover{
-	color: violet;
+	color: white;
 }
 
 main {
 	min-height: 1000px;
+	background-color: #c5d1eb;
 }
 
 section {
-	background-color: white;
-	border: 1px solid cyan;
+	background-color: #f4f7f5;
+	border: 5px solid #c5d1eb;
 	width: 80%;
 	margin: 0 auto;
 	text-align: center;
@@ -115,10 +124,21 @@ section {
 
 .logo{
 	height: 200px;
-	}
+	margin: 10px;
+	opacity: 0.7;
+}
+
+#insta-logo, #wordpress-logo{
+	box-sizing: padding-box;
+	padding: 25px;
+}
+
+.logo:hover{
+	opacity: 1;
+}
 
 footer {
-	background: linear-gradient(to bottom, gray, black);
+	background: linear-gradient(to bottom, #840032, #08090a);
 
 	height: 50px;
 	position: relative;
