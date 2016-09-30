@@ -10,8 +10,10 @@ yellow- #e59500
 blue? - #c5d1eb
 */
 body{
-	margin-bottom: -50px;
-	background-color: #002642;
+	margin-bottom: -2.884615%;
+	width: 100%;/*1040px*/
+	font-size: 1em;
+	background-color: black;
 }
 
 body, header, h1, h2, p{
@@ -22,22 +24,24 @@ body, header, h1, h2, p{
 
 header { 
 	background: linear-gradient(to top, #840032, #08090a);
-	height: 200px;
+	height: 19.230769%; /*200px*/
 	text-align: center
 }
 
 h1 {
 	font-family: Monospace, sans-serif;
-	padding-top: 100px;
+	padding-top: 10.416667%;
 	color: #c5d1eb;
-	margin-bottom: 30px;
+	margin-bottom: 3.125%;
+	font-size: 300%;
 }
 
 h2{
 	font-family: Monospace, sans-serif;
 	padding: 10px;
-	margin: 5px;
+	margin: 0.600962%;/*5px*/
 	color: #840032;
+	font-size: 175%;
 }
 
 nav li {
@@ -48,7 +52,7 @@ nav li {
 nav li a{
 	color: #e59500;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 101.25%;
 }
 
 nav li a:hover{
@@ -56,21 +60,20 @@ nav li a:hover{
 }
 
 main {
-	min-height: 1000px;
-	background-color: #c5d1eb;
+	background-color: black;
 }
 
 section {
 	background-color: #f4f7f5;
-	border: 5px solid #c5d1eb;
-	width: 80%;
+	border: 5px solid black;
+	width: 80%; /*832px*/
 	margin: 0 auto;
 	text-align: center;
-	padding: 40px 0;
+	padding: 3.846154% 0; /*40px */
 }
 
 #about-me p{
-	width: 500px;
+	width: 60.0096154%; /*500px*/
 	text-align: left;
 	margin: 0 auto;
 }
@@ -139,7 +142,7 @@ section {
 
 footer {
 	background: linear-gradient(to bottom, #840032, #08090a);
-
 	height: 50px;
 	position: relative;
+	width: 100%;
 }
